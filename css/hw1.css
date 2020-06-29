@@ -9,7 +9,7 @@ body{
 header{
     background: #cff6cf;
     text-align: center;
-    background-image: url('../images/flywheel.JPG') ;
+    background-image: url('./images/flywheel.JPG') ;
     background-size: cover;
     height :120px; 
     padding-bottom: 10px;

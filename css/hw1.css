@@ -55,12 +55,13 @@ img{
   }
     
 nav a{
-    margin-left:150px;
+    margin-left:130px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 5px;
     width:100px;
     float:left;
     border-radius: 4px;
+    display:inline-block;
     text-decoration: none;
     color: #000000;
     background: rgba(246,222,246,.5) ;

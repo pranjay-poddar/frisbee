@@ -10,10 +10,12 @@ header{
     background: #cff6cf;
     text-align: center;
     background-image: url(flywheel.jpg) ;
-    background-size: cover;
-    height :120px; 
-    padding-bottom: 10px;
+       background-size: cover;
+    height :200%; 
+    padding-bottom: 7%;
     display: block;
+    
+
 }
 
 
@@ -58,17 +60,18 @@ nav a{
     margin-left:150px;
     margin-bottom: 20px;
     padding: 10px;
-    width:100px;
-    float:left;
+    width:10%;
+    
     border-radius: 4px;
-    display:inline-block;
     text-decoration: none;
     color: #000000;
     background: rgba(246,222,246,.5) ;
     font-weight: solid;
-    border: 1px solid hidden ;
+    
     transition: width,height,transform;
     transition-duration: .5s,.5s,.5s;
+    display: inline-block;
+    
 
 }
 
@@ -84,10 +87,11 @@ a:hover {
 
 .left{
     background: linear-gradient(to bottom, #33ccff 0%, #99ff66 100%);
-    display:inline;
+    display:inline-block;
     padding: 3%;
     float: left;
     
+    box-sizing: border-box;
     border-radius: 5px;
 }
 
@@ -98,9 +102,10 @@ a:hover {
 
     display:inline-block;
     border-radius: 5px;
-    padding: 5px 15px;
-    
+    padding: 2%;
+    box-sizing: border-box;
     width: 70%;
+    clear: both;
     
 }
 .right :hover {
